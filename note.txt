@@ -1,0 +1,6 @@
+1> Apply multiprocess to transform the experiments data into specific format (SourceID, TargetID, "EX", ExpID, Day)
+
+2> Split the graph files into chunkes, then we can apply multiprocess to group them by users
+
+3> run multiple mapreduce jobs to combine the experiment data and Edge data
+
